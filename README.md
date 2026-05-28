@@ -1,6 +1,6 @@
 # Kinergy Landing Page
 
-Static landing page for Kinergy.
+Static GitHub Pages-ready landing page for Kinergy.
 
 ## Files
 
@@ -8,21 +8,24 @@ Static landing page for Kinergy.
 - `styles.css`
 - `script.js`
 
+## Required Images
+
+Place these image files in the same folder as `index.html`:
+
+- `Kinergy_logo.png`
+- `Kinergy_score2.png`
+
 ## GitHub Pages Setup
 
-1. Create a new GitHub repository.
-2. Upload these files to the root of the repository.
-3. Go to **Settings > Pages**.
-4. Under **Build and deployment**, choose:
+1. Upload all files to the root of your GitHub repository.
+2. Go to **Settings > Pages**.
+3. Under **Build and deployment**, choose:
    - Source: Deploy from a branch
    - Branch: main
    - Folder: /root
-5. Save.
+4. Save.
 
-Your site will publish from GitHub Pages.
+## Update Before Launch
 
-## Replace later
-
-- Update the App Store download link in `index.html`.
-- Replace the mock phone UI with real app screenshots when ready.
-- Adjust pricing text before launch if needed.
+- Replace the final App Store button `href="#"` in `index.html` with your real App Store link.
+- Adjust pricing if needed before launch.
